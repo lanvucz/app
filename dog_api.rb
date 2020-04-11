@@ -34,21 +34,3 @@ class DogApi
 
 end
 
-
-
-
-
-# def get_account_statement(gopay_url, token, body)
-#   cmd_uri = "#{gopay_url}#{ACCOUNT_GOPAY_REQUEST[:account_statement]}"
-#   header = HTTP_REQUEST[:account_statement][:headers].dup
-#   header[:Authorization] = "#{token[:token_type]} #{token[:access_token]}"
-#   HttpHelper.post(cmd_uri, header, body)
-#   # # pro HttpHelper.post ulozime soubor takto
-#   # # File.open(temp_file.path, 'wb:ASCII-8BIT') {|file|
-#   # #  file << binary_stream
-#   # #}
-#   # # pak # rescue => e # find class of error a errorHttpCode: e.class
-# end
-
-
-
